@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="ie8 ielt9"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+  <head>
+    <title>Boilerplate1</title>
+    <base href="/" />
+
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="true" name="HandheldFriendly" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="text/html;charset=UTF-8" http-equiv="content-type" />
+
+    <%= stylesheet_link_tag    "app" %>
+    <%= javascript_include_tag "app" %>
+    <%= csrf_meta_tags%>
+
+  </head>
+  <body ng-app="client">
+    <div ui-view=""></div>
+  </body>
+</html>
