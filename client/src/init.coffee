@@ -1,9 +1,9 @@
-angular.module 'app', [
-  'ngAnimate'
-  'ngCookies'
-  'ngTouch'
+angular.module 'client', [
   'ngSanitize'
-  'ngResource'
   'ui.router'
+  'templates'
+  'ngAnimate'
+  'ngResource'
   'ui.bootstrap'
+  'Home'
 ]
