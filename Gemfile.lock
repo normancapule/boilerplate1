@@ -52,7 +52,12 @@ GEM
       nokogiri (>= 1.5.2)
       rspec (>= 3.1)
     arel (7.0.0)
+    autoprefixer-rails (6.3.6.2)
+      execjs
     bcrypt (3.1.11)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     bullet (5.1.0)
       activesupport (>= 3.0.0)
@@ -246,6 +251,7 @@ DEPENDENCIES
   annotate
   api_matchers
   bcrypt (~> 3.1.7)
+  bootstrap-sass
   bullet
   byebug
   capistrano
