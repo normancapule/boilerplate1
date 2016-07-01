@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module Boilerplate1
   class Application < Rails::Application
     MultiJson.engine = :Oj
-    config.angular_templates.inside_paths   = [Rails.root.join('client/src')]
+    config.angular_templates.inside_paths   = ['client/src']
     config.middleware.delete "ActionDispatch::Cookies"
     config.middleware.delete "ActionDispatch::Session::CookieStore"
     config.middleware.delete "ActionDispatch::Flash"
